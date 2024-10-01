@@ -1,0 +1,65 @@
+.content{
+    width: 500px;
+    height: 200px;
+    background-color: tomato;
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+
+/* -----------for Log in----------- */
+
+.card{
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loginform{
+    height: 200px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0.5px 1px 2px black;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.loginform input{
+    width: 97%;
+    border: 1px dotted tomato;
+    outline: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 13px;
+
+}
+
+.loginform label{
+    font-size: 18px;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.loginform button{
+    background-color: green;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 1px;
+}
