@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+
+
+.parent-div{
+    position: relative;
+    height: 500px;
+    width: 700px;
+    background-color: blue;
+}
+
+.child-div{
+    width: 200px;
+    height: 200px;background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.content3{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+.content4{
+    background-color: rgb(242, 245, 98);
+    width: 200px;
+}
+
+.content6 img{
+    float: left;
+    padding: 10px;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.content7{
+    background-color: brown;
+    padding-left: 50px;
+    border-left: 10px solid black;
+    margin-left: 10px;
+    border-bottom: 10px solid red;
+}
+
+.content8{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid black;
+    box-sizing: border-box;
+
+}
+
+.backgroundImg{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(68, 117, 208);
+    background-image: url(photo-1529778873920-4da4926a72c2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
