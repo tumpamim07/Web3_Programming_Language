@@ -1,0 +1,13 @@
+/* body{
+    background-image: url(img/bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.gradient{
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+    background-image: linear-gradient(to right, black, red, blue, yellow);
+}

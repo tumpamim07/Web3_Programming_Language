@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.259), rgba(226, 80, 80, 0.259)) , url(../img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    gap: 15px;
+}
+
+.content h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.content p{
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Meow Script", cursive;
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.inputdiv input{
+    width: 50%;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+}
+
+.inputdiv button{
+    padding: 10px 15px;
+    width: 120px;
+    color: white;
+    border: none;
+    background-color: orange;
+}
+
+.gradient{
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+    background-image: linear-gradient(to right, black, red, blue, yellow);
+}
