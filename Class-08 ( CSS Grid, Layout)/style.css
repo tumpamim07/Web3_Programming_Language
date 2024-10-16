@@ -21,6 +21,7 @@
 body{
     background-color: rgb(65, 69, 76);
     color: white;
+    ;
 }
 
 .row::after{
@@ -31,7 +32,6 @@ body{
 
 [class*="col-"] {
     float: left;
-    padding: 5px;
 }
 
 header .row .col-12{
@@ -53,6 +53,8 @@ header p{
 }
 
 main .container{
+    width: 100%;
+    display: flex;
 
 }
 
@@ -64,34 +66,22 @@ main .container .row{
 .left-content{
        background-color: orange;
        height: 300px;
-       width: 352px;
-       display: flex;
-       align-items: center;
-       justify-content: center;
+       width: 50%;
 }
 
 .middle-content{
         background-color: rgb(255, 106, 0);
         height: 300px;
-        width: 800px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
 }
 
 .right-content{
     background-color: orange;
     height: 300px;
-    width: 352px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-footer{
+footer .row .col-12{
     background-color: brown;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10;
+    flex-direction: column;
+    gap: 10px;
 }

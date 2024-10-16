@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div class="form-row">
+                <div class="form-cont">
+                    <label for="first-name">First Name <span>*</span></label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+    
+                <div class="form-cont">
+                    <label for="last-name">Last Name <span>*</span></label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+            </div>
+
+            <div class="form-cont">
+                <label for="email">Email Address <span>*</span></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            
+            <div class="form-cont">
+                <label for="query">Query Type</label>
+                <div class="form-radio">
+                    <label class="radio">
+                        <input type="radio" name="radio" id="radio">
+                        General Enquiry
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="radio" id="radio">
+                        Support Request
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-cont">
+                <label for="message">Message <span>*</span></label>
+                <textarea name="message" id="message" required></textarea>
+            </div>
+
+            <div class="form-cont">
+                <label for="consent" >
+                    <input type="checkbox" name="consent" id="consent" required> I consent to being contacted by the team <span>*</span>
+                </label>
+            </div>
+            <div class="form-cont">
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
