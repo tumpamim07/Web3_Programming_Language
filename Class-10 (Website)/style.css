@@ -1,12 +1,10 @@
 *{
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
     text-decoration: none;
 }
-
-
 
 nav{
     background-color: gray;
@@ -21,20 +19,20 @@ nav{
     text-transform: uppercase;
 }
 
-.container{
+.container {
     width: 90%;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
+    margin: auto;
     align-items: center;
+    justify-content: space-between;
 }
 
-.right-nav{
+.right-nav {
     background-color: tomato;
     max-width: 20rem;
-    position: absolute;
     height: 100vh;
 
+    position: absolute;
     top: 0;
     right: 0;
     padding: 1rem 2rem;
@@ -55,44 +53,43 @@ nav{
 
 .back-to-main{
     border: 2px solid white;
-    padding: 8px 15px;
-    color: white;
+    padding: 10px 15px;
     font-size: 12px;
+    color: white;
 }
-
-
 
 
 .right-nav a i{
-    font-size: 40px;
     color: white;
+    font-size: 40px;
 }
-
-
 
 .nav-bar i{
-    font-size: 50px;
     color: red;
-
+    font-size: 50px;
 }
+            
 
-/* ----------------------------Hero Section------------------------- */
+/* <!-- -----------------------------------------------Hero Item------------------------------------------------------------------- --> */
 
 .com-container{
     width: 90%;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 
 .hero-item{
     display: flex;
     flex-direction: column;
     width: 100%;
+
 }
 
 .hero-item .left{
     order: 2;
     flex: 1;
+
+    margin-top: -4px;
 }
 
 .left .left-content{
@@ -102,59 +99,137 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 30px;
+
 }
 
-
 .left .left-content .line{
-    width: 40px;
-    height: 5px;
     background-color: black;
+    height: 5px;
+    width: 50px;
     margin: auto;
 }
 
-
 .left .left-content h1{
-    font-size: 20px;
+    font-size: 25px;
     color: blue;
 }
 
+.left .left-content button{
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: transparent;
+    font-size: 12px;
+}
 
 .hero-item .right{
     order: 1;
     flex: 1;
+
 }
 
-
-.hero-item .right .img{
-    height: 100%;
-    width: 100%;
+.hero-item .right img{
     object-fit: cover;
+    width: 100%;
+    height: 500px;
 }
 
 
+/* <!-- -----------------------------------------------About Me------------------------------------------------------------------- --> */
+
+.about-container{
+    background-image: url(pexels-seymasavascioglu-11532240.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 90%;
+    height: 450px;
+    margin: auto;
+
+    margin-top: 7px;
+    text-align: center;
+}
+
+.about-content{
+    padding: 30px 40px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-content h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about-content p{
+    padding: 0px 50px;
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
+
+.about-me .line-about{
+    background-color: black;
+    height: 5px;
+    width: 50px;
+    margin: auto;
+}
+
+
+/* <!-- -----------------------------------------------Resume------------------------------------------------------------------- --> */
+
+.resume-sect{
+    background-color: burlywood;
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    margin-top: 7px;
+}
+
+
+.resume-sect .resume{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.resume h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resume .resume-line{
+    background-color: black;
+    height: 5px;
+    width: 50px;
+}
 
 @media screen and (min-width: 991px) {
-    
+
 .right-nav{
     background-color: transparent;
     max-width: 100%;
     height: fit-content;
 
     position: static;
+    display: flex;
     flex-direction: row;
     gap: 25px;
-    display: flex;
 }
 
 .right-nav a i{
     display: none;
 }
 
-
 .nav-bar{
     display: none;
 }
-
 
 .right-nav ul{
     flex-direction: row;
@@ -162,34 +237,34 @@ nav{
 }
 
 
-/* ----------------------------Hero Section------------------------- */
 
+/* <!-- -----------------------------------------------Hero Item------------------------------------------------------------------- --> */
 
 .hero-item{
     flex-direction: row;
     gap: 10px;
 }
 
-.left .left-content{
-    background-color: transparent;
- }
+.hero-item .right{
+    order: 2;
+    flex: 70%;
+}
+
+.hero-item .right img{
+    height: 350px;
+}
 
 .hero-item .left{
     order: 1;
+    background-color: aquamarine;
     height: 350px;
     flex: 30%;
-    background-color: aquamarine;
+
+    margin-top: 0px;
 }
 
-.hero-item .right{
-    order: 2;  
-    flex: 70%;
-    height: 350px;
+.left .left-content{
+    background-color: transparent;
 }
-
-
-
+    
 }
-
-
-
