@@ -168,6 +168,7 @@ nav{
     padding: 0px 50px;
     display: block;
     max-width: 600px;
+    min-width: 600px;
     margin: auto;
 }
 
@@ -208,6 +209,80 @@ nav{
     background-color: black;
     height: 5px;
     width: 50px;
+}
+
+/* <!-- ----------------------------------------------- Resume ------------------------------------------------------------------- --> */
+
+
+.education-experience{
+    width: 90%;
+    margin: auto;
+    margin-top: 7px;
+}
+
+
+.education-experience .edu-exp-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.edu-exp-container h3{
+    font-size: 15px;
+}
+
+.edu-exp-container p{
+    font-size: 15px;
+    padding: 0px 10px;
+    display: block;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+}
+
+.edu-exp-container .left-education{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 49.5%;
+    padding: 0px 10px;
+
+}
+
+
+.education i{
+    padding: 50px;
+    font-size: 50px;
+}
+
+
+.education h1{
+    font-size: 25px;
+}
+
+.edu-exp-container .right-experience{
+    background-color: green;
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 10px;
+}
+
+
+
+.experience i{
+    padding: 50px;
+    font-size: 50px;
+}
+
+.experience h1{
+    font-size: 25px;
 }
 
 @media screen and (min-width: 991px) {
