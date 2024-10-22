@@ -287,6 +287,32 @@ nav{
 
 /* <!-- ----------------------------------------------- Pricing ------------------------------------------------------------------- --> */
 
+.pricing{
+    width: 90%;
+    padding: 30px 40px;
+    margin: auto;
+    background-color: brown;
+    margin-top: 7px;
+}
+
+.pricing .price-cont{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.price-cont h1{
+    font-size: 25px;
+}
+
+.price-cont .price-line{
+    background-color: black;
+    height: 5px;
+    width: 50px;
+}
 
 
 @media screen and (min-width: 991px) {
