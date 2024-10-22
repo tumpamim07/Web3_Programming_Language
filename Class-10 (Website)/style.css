@@ -211,7 +211,7 @@ nav{
     width: 50px;
 }
 
-/* <!-- ----------------------------------------------- Resume ------------------------------------------------------------------- --> */
+/* <!-- ----------------------------------------------- Education & Experience ------------------------------------------------------------------- --> */
 
 
 .education-experience{
@@ -221,12 +221,12 @@ nav{
 }
 
 
-.education-experience .edu-exp-container{
+.edu-exp-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    height: 75vh;
+    height: 70vh;
     width: 100%;
 }
 
@@ -285,6 +285,10 @@ nav{
     font-size: 25px;
 }
 
+/* <!-- ----------------------------------------------- Pricing ------------------------------------------------------------------- --> */
+
+
+
 @media screen and (min-width: 991px) {
 
 .right-nav{
@@ -341,5 +345,20 @@ nav{
 .left .left-content{
     background-color: transparent;
 }
+
+
+/* <!-- ----------------------------------------------- Education & Experience ------------------------------------------------------------------- --> */
+
+.education-experience .edu-exp-container{
+    height: 67vh;
+}
+
+.edu-exp-container .left-education{
+    width: 49.9%;
+    padding: 0px 10px;
+
+}
+
+
     
 }
