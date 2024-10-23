@@ -226,20 +226,27 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    height: 70vh;
+
     width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
 }
 
 .edu-exp-container h3{
-    font-size: 15px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0px 10px;
 }
 
 .edu-exp-container p{
     font-size: 15px;
     padding: 0px 10px;
-    display: block;
-    max-width: 600px;
-    min-width: 320px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -250,8 +257,7 @@ nav{
     flex-direction: column;
     gap: 40px;
     width: 49.5%;
-    padding: 0px 10px;
-
+    padding: 0px 20px 40px 20px;
 }
 
 
@@ -271,7 +277,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0px 10px;
+    padding: 0px 20px 40px 20px;
 }
 
 
@@ -289,10 +295,14 @@ nav{
 
 .pricing{
     width: 90%;
-    padding: 30px 40px;
     margin: auto;
-    background-color: brown;
     margin-top: 7px;
+    height: 300px;
+}
+
+.price-container{
+    background-color: brown;
+    padding: 30px 40px;
 }
 
 .pricing .price-cont{
@@ -312,6 +322,42 @@ nav{
     background-color: black;
     height: 5px;
     width: 50px;
+}
+
+.price-container .all{
+    display: flex;
+    gap: 80px;
+    padding: 70px 10px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.all .left-price, .all .middle-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.all .right-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.all .all-b{
+    font-size: 50px;
+}
+
+.all button{
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: transparent;
+    font-size: 15px;
 }
 
 
@@ -339,7 +385,7 @@ nav{
 .right-nav ul{
     flex-direction: row;
     gap: 30px;
-}
+} 
 
 
 
