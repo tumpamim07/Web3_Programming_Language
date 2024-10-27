@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Class 13</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 class="text-4xl p-[20.5px]
+       bg-[#8e2157] 
+       text-[#ffff]
+       m-10 
+       rounded-[9.5px]">
+        Hello World
+    </h1>
+
+    <!-- ------------Border---------- -->
+    <h3 class="border rounded-t-[40px] m-10  bg-red-700 p-[30.5px]">H3</h3>
+    <h2 class="border rounded-tl-lg bg-blue-700 m-10 p-[30.5px]">H2</h2>
+    <h4 class="border rounded-br-lg bg-yellow-400 m-10 p-[30.5px]">H4</h4>
+    <h4 class="border rounded-s-lg bg-yellow-200 m-10 p-[30.5px]">H4</h4>
+
+    <h4 class="m-10 border-[0.5px] border-solid border-indigo-500">Border</h4>
+    <h4 class="m-10 border-t-8 border-indigo-700">Border</h4>
+    <h4 class="m-10 border-r-8 border-dotted border-indigo-900">Border</h4>
+    <h4 class="m-10 border-y-8 border-dashed border-red-600">Border</h4>
+    <h4 class="m-10 border-x-8 border-double border-red-600">Border</h4>
+    <h4 class="m-10 border-b-8 border-indigo-800">Border</h4>
+
+
+    <!-- ------------Outline Width---------- -->
+
+    <button class="m-10 bg-green-900 px-5 py-2 border border-black text-white rounded
+        hover:outline hover:bg-cyan-900 hover:text-amber-600 outline-cyan-300
+        hover:outline-offset-[40px]">
+        Submit</button>
+
+    <!-- ------------Ring width---------- -->
+    <button class="hover:ring-2 ">
+        Ring
+    </button>
+
+    <!-- ------------Box Shadow---------- -->
+    <div class="m-10 w-[200px] h-[200px] bg-blue-300 shadow shadow-red-600 ">
+        Shadow
+    </div>
+
+    <div class="m-10 w-[200px] h-[200px] bg-blue-300 shadow-lg shadow-red-600 ">
+        Shadow
+    </div>
+
+    <div class="m-10 w-[200px] h-[200px] bg-blue-300 shadow-inner shadow-red-600 ">
+        Shadow
+    </div>
+
+    <div class="m-10 w-[200px] h-[200px] bg-blue-800 opacity-5 shadow-md shadow-red-600 ">
+        Shadow
+    </div>
+
+    <!-- ------------grayscale---------- -->
+    <img class="m-10 grayscale hover:grayscale-0"
+        src="https://images.pexels.com/photos/27971523/pexels-photo-27971523/free-photo-of-a-mountain-hut-overlooks-a-spectacular-valley-in-the-swiss-alps.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="">
+    <img class="m-10 hue-rotate-90"
+        src="https://images.pexels.com/photos/20657458/pexels-photo-20657458/free-photo-of-boats-on-a-lake.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        alt="">
+
+    <div class="m-10 backdrop-blur-sm" style="background-image: url('https://images.pexels.com/photos/28881039/pexels-photo-28881039/free-photo-of-modern-wave-like-architectural-facade.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    ">
+        <div class="m-10 w-[300px] h-[300px]  backdrop-blur-md bg-white/30">
+
+        </div>
+    </div>
+
+    <div class="m-10 w-[300px] h-[300px] border border-blue-500">
+        <img class="hover:scale-150 transition-[1s]" src="https://images.pexels.com/photos/20228521/pexels-photo-20228521/free-photo-of-entrance-to-the-cocovanka-cafe-in-prague-czech-republic.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    </div>
+
+    <div class="m-10 w-[300px] h-[300px] border border-blue-500">
+        <img class="hover:rotate-90 transition-[1s]" src="https://images.pexels.com/photos/20228521/pexels-photo-20228521/free-photo-of-entrance-to-the-cocovanka-cafe-in-prague-czech-republic.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    </div>
+
+    <!-- -----------------Image Column----------------- -->
+
+    <div class="columns-4">
+        <img class="w-full aspect-video" src="https://images.pexels.com/photos/28719189/pexels-photo-28719189/free-photo-of-minimalist-tea-setting-on-wooden-board.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img class="w-full aspect-square" src="https://images.pexels.com/photos/28882033/pexels-photo-28882033/free-photo-of-autumn-still-life-with-pumpkins-and-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        
+        <img class="w-full aspect-video" src="https://images.pexels.com/photos/28719189/pexels-photo-28719189/free-photo-of-minimalist-tea-setting-on-wooden-board.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img class="w-full aspect-square" src="https://images.pexels.com/photos/28882033/pexels-photo-28882033/free-photo-of-autumn-still-life-with-pumpkins-and-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    
+        <img class="w-full aspect-video" src="https://images.pexels.com/photos/28719189/pexels-photo-28719189/free-photo-of-minimalist-tea-setting-on-wooden-board.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img class="w-full aspect-square" src="https://images.pexels.com/photos/28882033/pexels-photo-28882033/free-photo-of-autumn-still-life-with-pumpkins-and-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img class="w-full aspect-video" src="https://images.pexels.com/photos/28719189/pexels-photo-28719189/free-photo-of-minimalist-tea-setting-on-wooden-board.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img class="w-full aspect-square" src="https://images.pexels.com/photos/28882033/pexels-photo-28882033/free-photo-of-autumn-still-life-with-pumpkins-and-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    
+    
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
