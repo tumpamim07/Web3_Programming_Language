@@ -1,0 +1,7 @@
+-dynamic
+-static
+-what is javascript?
+-oop in js
+-data type of js (primitive & non primitive)
+-difference between var(anyscope),let, const(blockscope)
+-assignment operator
